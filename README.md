@@ -1,18 +1,18 @@
 # telegram-send.yazi
-Send files via telegram-send directly from Yazi
+Send files via telegram-send directly from Yazi.
 
-**NOTE:** I only tested it on Windows and Linux
+**NOTE:** I only tested it on Windows and Linux.
 
 ## Requirements
 [telegram-send](https://github.com/rahiel/telegram-send)
-- follow the instructions to set up your telegram-send bot
+- Follow the instructions to set up your telegram-send bot
 
 ## Installation
-- via `ya` package manager
+- Via `ya` package manager
 ```sh
 ya pack -a pareix/telegram-send
 ```
-- via Git
+- Via `Git`
 ```sh
 # For Linux
 git clone https://github.com/pareix/telegram-send.yazi.git ~/.config/yazi/plugins/telegram-send.yazi
@@ -28,7 +28,7 @@ require("telegram-send"):setup({
 	notification = true,
 })
 ```
-You can change the default command there
+You can change the default command there, depending on your needs.
 
 - Add this to your `keymap.toml`:
 ```toml
@@ -38,6 +38,6 @@ run = ["plugin telegram-send"]
 desc = "Send with Telegram"
 ```
 ## Usage
-- hover a file or select multiple files
-- press the keyboard shortcut, default is `c` `s`
-- depending on your telegram-send setup the files will be sent to you/your preconfigured message receiver
+- Hover a file or select multiple files.
+- Press the keyboard shortcut, the default is `c` `s`.
+- Depending on your telegram-send setup the files will be sent to you/your preconfigured message receiver.
