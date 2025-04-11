@@ -5,14 +5,14 @@ Send files via telegram-send directly from Yazi.
 
 ## Requirements
 [telegram-send](https://github.com/rahiel/telegram-send)
-- Follow the instructions to set up your telegram-send bot
+- Follow the instructions to set up your telegram-send bot.
 
 ## Installation
 - Via `ya` package manager
 ```sh
 ya pack -a pareix/telegram-send
 ```
-- Via `Git`
+- Via `git`
 ```sh
 # For Linux
 git clone https://github.com/pareix/telegram-send.yazi.git ~/.config/yazi/plugins/telegram-send.yazi
